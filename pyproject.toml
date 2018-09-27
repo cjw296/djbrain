@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "djbrain"
+version = "0.0.0"
+description = "For DJs without enough brain space"
+authors = ["Chris Withers <chris@withers.org>"]
+
+[tool.poetry.dependencies]
+python = "3.7"
+discogs-client = "^2.2"
+mortar_rdb = "^2.2"
+mortar_mixins = "^2.3"
+psycopg2 = "^2.7"
+
+[tool.poetry.dev-dependencies]
+testfixtures = "^6.3"
+pytest = "^3.8"
+pytest-cov = "^2.6"
