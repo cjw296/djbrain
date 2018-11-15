@@ -5,7 +5,7 @@ description = "For DJs without enough brain space"
 authors = ["Chris Withers <chris@withers.org>"]
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = "^3.7"
 discogs-client = "^2.2"
 mortar_rdb = "^2.2"
 mortar_mixins = "^2.3"
